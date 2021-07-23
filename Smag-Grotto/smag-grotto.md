@@ -20,7 +20,7 @@ Discoverd 2 Ports, Let's check port 80.
 
 ## Enumeration:
 
-From `gobuster` result we will get directory called `/main`
+From `gobuster` result we will get directory called `/mail`
 
 ![](img/4.png)
 
@@ -52,7 +52,7 @@ Enumerating further more we can see interesting job running on `/etc/crontab`
 
 ![](img/11.png)
 
-Here we can manipulate that get user privilege.
+Here we can manipulate that to get user privilege.
 
 ![](img/12.png)
 
@@ -75,3 +75,5 @@ Now get exploit on [GTFObins](https://gtfobins.github.io/gtfobins/apt-get/) for 
 sudo apt-get update -o APT::Update::Pre-Invoke::=/bin/sh
 ```
 ![](img/16.png)
+
+## Happy Hacking!!
